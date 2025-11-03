@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>SK</Authors>
+    <Company></Company>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <Description>Demo for ChineseCalendarLib.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChineseCalendarLib">
+      <HintPath>..\ChineseCalendarLib\bin\Debug\net8.0\ChineseCalendarLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
